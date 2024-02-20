@@ -1,0 +1,2 @@
+<p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio> <!-- MP3 WAV OGG-->

@@ -1,0 +1,3 @@
+Repositorio: local onde se garda coisas, faz backup dos arquivos.
+Git: repositorio local de codigos.
+GitHub: repositorio na nuvem, backup do repositorio feito no Git.

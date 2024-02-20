@@ -1,0 +1,117 @@
+Quebra de texto: <br></br>
+
+Inserir imagem: <img src="" alt="(descrever a imagem)"
+
+Inserir favicon: <link rel="shortcut icon" href="(nome do arquivo).jpg" type="image/x-icon">
+
+Negrito: <b></b> ou <strong></strong>
+Italico: <i></i> ou <em></em>
+Marcado: <mark></mark>
+Texto excluido: <del></del>
+Texto inserido: <ins></ins>
+Sublinhado: <u></u>
+Texto sobrescrito: <sup></sup>
+Subscrito: <sub></sub>
+
+Inserir codigo de programacao: <code></code>
+Aspas: <q></q>
+Citacoes completas: <blockquote cite="(colar site"></blockquote>
+Abreviacoes: <abbr></abbr>
+Texto invertido: <bdo dir="rtl"></bdo>
+
+Listas nao ordenadas: <ul></ul>
+Disco: <ul type="disc"></ul>
+Circle: <ul type="circle"></ul>
+Square: <ul type="square"></ul>
+
+Listas ordenadas: <ol></ol>
+Tipo a A i I 1: <ol type="a/A/i/I/1"></ol>
+
+Obs: os elementos da lista vem entre <li></li>
+
+Comentario: <!-- ESCREVER -->
+
+Link externo <a href="(site)" target="_blank" rel="external"></a>
+
+Link interno: <a href="(pagina).html" rel="next"></a>
+
+Link para download: <a href="(nome do arquivo).pdf" download="(nome que vc vai dar).pdf" type="application.pdf">
+
+Aumentar e diminuir tamanho de imagem no navegador:  <picture>
+        <source media="(max-width: (numero minimo)px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: (numero maximo)px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+Reproduzir audio: 
+<audio preload="metadata" autoplay controls loop>
+        <source src="(nome do arquivo).mp3" type="audio/mpeg">
+        <source src="(nome do arquivo).ogg" type="audio/ogg">
+        <source src="(nome do arquivo).wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="(nome do arquivo).mp3"> Clique aqui para baixar o arquivo</a></p>
+
+Inserir video hospedado localmente
+<video width="200" controls autoplay loop> <!--poster= (serve pra colocar uma capa)-->
+	<source src="(nome do arquivo).mp4" type="video/mp4">
+    <source src="(nome do arquivo).webm" type="video.webm">
+    <source src="(nome do arquivo).ogv" type="video/ogv">
+    <p>Seu navegador nao tem compatibilidade com reproducao de videos</p>
+
+Inserindo videos do youtube
+<iframe width="560" height="315" src="site" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Estilos inline <!--estilo na mesma linha do css, para estilos pontuais, nao e pra usar no codigo todo-->
+<body style="background-color: aquamarine;" font="family">
+<h1 style="color: brown;">(escreve o h1)</h1>
+<p style="text-align: justify;">(escreve o paragrafo)</p>
+
+Estilos Internos <!--Tecnica util para configurar apenas um documento. Para varias paginas, nao e tao bom-->
+<style>
+        body {
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            background-color: lightblue;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style> 
+
+Extilos externos  <!--AS CSS ficam em outro arquivo-->
+<link rel="stylesheet" href="style.css">
+
+Arquivo #style.css
+@charset "UTF-8";
+body {
+    background-color: rgb(231, 224, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkblue;
+    background-color: rgb(172, 170, 75);
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+<></><></><></><></><></><></><></><></><></><></><></>

@@ -1,0 +1,2 @@
+<p>Este video esta hospedado no meu proprio servidor.</p>
+    <video src="midias/meuvideo.mp4" width="200" controls></video>

@@ -1,0 +1,125 @@
+Cores primarias: amarelo, azul e vermelho
+Cores secundarias: laranja, verde e violeta
+Cores terciarias: entre cor primaria e secundaria (primeiro a cor primaria e depois a cor secundaria)
+
+Cores frias: lado esquerdo do circulo cromatico
+Cores quentes: lado direito do circulo cromatico
+
+Cores complementares: ver a cor que esta no lado oposto do circulo cromatico
+
+Cores analogas: nao tem contraste entre elas, mas sao harmonicas (olhar as cores vizinhas no circulo cromatico), sao as tres vizinhas (uma principal e uma vizinha de cada lado)
+
+Paleta = maximo 5 cores
+
+Cores analogas relacionadas: cor principal, uma vizinha pula uma cor, pega a cor vizinha do que pulou
+
+Cores intercaladas: maior contraste entre elas (pode pular uma, duas, tres)
+
+Cores triadicas: faz um triangulo (pula tres cores)
+
+Cores em quadrados: faz um quadrado (pula duas cores)
+
+Cores tetradicas: escolhe duas cores e ve as cores que sap complementares (forma um retangulo)
+
+Monocromia: muda a saturacao e a luminosidade, formando uma paleta com 4 cores
+
+ONDE FAZER PALETA: COLOR.ADOBE.COM ou PALETTON ou COOLORS
+
+Como capturar cores da tela: instalar o colorzilla no chrome web store
+
+* { /* configuracoes globais das CSS */
+        height: 100%; (para fazer degrade num site, sem isso fica zebrado)
+  }
+        body {
+            background-image: linear-gradient(to bottom, #E046AB, #4456E0); (o codigo pro degrade)
+            background-attachment: fixed; (para nao precisar rolar o site e ver o degrade)
+        }
+
+Font size
+Medidas absolutas: cm, mm, in (polegadas), px, pt (ponto), pc (paica)
+Medidas relativas: em (tamanho atual da fonte/altura do M), ex (relatico a altura x), rem, vw (largura da viewport/tela), vh (altura da viewport) 
+RECOMENDA-SE O USO DE: PX E EM
+O tamanho normal costuma ser 16px
+16px geralmente e igual a 1em
+
+weight = peso widht = largura height = altura
+
+font-weight = varia de 100 a 900 ou lighter normal bold e bolder
+
+font-style = italico ou nao
+
+text decoration = sublinhado
+
+shorthand font = condensa todas as configuracoes: primeiro fontstyle, fontweight, fontsize e por ultimo fontfamily
+
+Importar fonte do google fonts
+Copia o codigo em get font - embed = @import
+coloca o codigo em head
+
+Fontes externas
+@font-face (dentro de <style>, para criar sua fonte externa)
+Tipos de format
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+Extensao do google chrome para capturar uma fonte 
+FONTS NINJA (chrome web store)
+
+
+Identificando fontes dentro de imagens
+Entra no site whatfontis.com e jogar a imagem para o programa analisar
+Outra possibilidade: font squirrel
+Outra possibilidade: Myfonts
+
+Tudo em HTML id = em CSS e # (um elemento)
+Tudo em HTML e class = em CSS e . (varios elementos)
+
+id= unico
+class= varios
+
+div > p { (sinal indica o filho da div
+            display: none;
+
+
+# = id
+. = class
+: = pseudo-class (palavra chave add a seletores pra especificar um estado especial do elemento selecionado. Ex hover)
+:: = pseudo-element (palavra chave add a um seletor para estilizar uma parte especifica do elemento selecionado. Ex first-line - aplicar estilo apenas na primeira linha do paragrafo)
+> = children
+
+Anatomia de uma caixa
+height = altura
+width = largura
+border = borda
+padding = preenchimento que fica entre a borda e a caixa
+margin = margem
+outline = contorno (fora do elemento)
+
+Caixa box-level: se inicia numa linha nova, ocupando a largura inteira do navegador, pulando para outra linha e continuar o conteudo. Ex: <div>, <h1>-<h6>, <main>, <header>, <nav>, <article>, <aside>, <footer>, <form>, <video>
+
+e possivel criar sombra dentro do dev tools. e so clicar nos tres pontos e box-shadow. depois de configurar, e so copiar pro codigo.
+
+Inline-level: se inicia ao lado do conteudo, nao ocupa a largura inteira, continuando o conteudo na mesma linha. Ex: <span>, <a>, <code>, <small>, <strong>, <em>, <sup>-<sub>, <label>, <button>, <input>, <select>
+
+User agent = meu computador
+
+USAR DEV TOOLS para fazer teste nas boxes
+
+Caixa no meio da tela: auto
+
+border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+para simplificar ---> border 10 px solid darkslategray
+
+padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+para simplificar -----> padding 10px 10px 10px 10px oooou 10px (tds iguais)
+
+<nav> seco para links de navegacao (menu)
