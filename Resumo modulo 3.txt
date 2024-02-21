@@ -20,4 +20,20 @@ Como usar Git e GitHub sem deixar rastros
 10- apagar o email;
 11- esvaziar a lixeira.
 
+Tres formas de colocar imagem de fundo
+div#q1 {
+            background-color: skyblue;
+        }  COR
 
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        } DEGRADE
+
+        div#q3 {
+            background-image: url('imagens/pattern001.png');
+        } IMAGEM (posso colocar imagende sitews, e so colar a url)
+
+background-image: no repeat (imagem nao vai ficar se repetindo no plano de fundo)
+background-repeat: repeat-x (repeticao apenas na horizontal - partindo do padrao canto alto direito) 
+background-repeat: repeat-y (repeticao apenas na vetical - partindo do padrao canto alto direito)
+background-repeat: repeat (repete por todo o plano de fundo)
