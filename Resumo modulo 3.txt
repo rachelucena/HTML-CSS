@@ -37,3 +37,7 @@ background-image: no repeat (imagem nao vai ficar se repetindo no plano de fundo
 background-repeat: repeat-x (repeticao apenas na horizontal - partindo do padrao canto alto direito) 
 background-repeat: repeat-y (repeticao apenas na vetical - partindo do padrao canto alto direito)
 background-repeat: repeat (repete por todo o plano de fundo)
+
+background size pode ser:
+contain = colocar a imagem 100% exibida, sem cortes
+cover = cobrir a tela toda, mesmo que corte um pouco das laterais, nao mostra, portanto, a imagem toda
