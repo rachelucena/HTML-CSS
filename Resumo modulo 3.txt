@@ -1,3 +1,23 @@
 Repositorio: local onde se garda coisas, faz backup dos arquivos.
 Git: repositorio local de codigos.
 GitHub: repositorio na nuvem, backup do repositorio feito no Git.
+
+github.com/explorer
+
+Como clonar projetos no Git e GitHub
+Clica no home do projeto, depois em clonar, depois open-desktop (escolher a psta em que vai salvar) ou fazer download dos arquivos em zip.
+
+Como usar Git e GitHub sem deixar rastros
+1- fazer login na sua conta no GitHub no destopk;
+2- clonar os arquivos que vc precisa;
+3- abrir com o visual studio code;
+4- mexer nos arquivos e depois commite (na maquina);
+5- colocar push no github (atualizacao concluida);
+6- fecha tudo, menos o github desktop;
+7- vai no repositorio e clima em remover;
+8- remove para a lixeira;
+9- clicar em sign out;
+10- apagar o email;
+11- esvaziar a lixeira.
+
+
