@@ -41,3 +41,12 @@ background-repeat: repeat (repete por todo o plano de fundo)
 background size pode ser:
 contain = colocar a imagem 100% exibida, sem cortes
 cover = cobrir a tela toda, mesmo que corte um pouco das laterais, nao mostra, portanto, a imagem toda
+cover + fixed = nao quebra a imagem e o fundo no se move
+
+Shorthnd background: color > image > position > repeat > size > attachment
+
+OBSERVACAO: O SIZE NAO E ACEITO, ENTAO TEM QUE FAZER A DECLARACAO SEPARADA
+
+section e article = div semanticas
+
+container tem posicao relativa e o conteudo vai ser position absoluto (com isso, vc pode configurar duas propriedades: left e top)
