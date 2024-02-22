@@ -64,3 +64,9 @@ Hierarquia de tabelas (simples)
         table row = linha de tabela (tr)
         table header = cabecalho de tabela (th)
         table date = dado de tabela (td)
+
+O tr e td nao tem fechamento obrigatorios 
+
+Se os elementos nao estao na hierarquia certa, os dados vao aparecer antes ou depois da tabela
+
+collapse: se quero os dados juntos ou separados
