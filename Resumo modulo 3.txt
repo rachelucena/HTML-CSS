@@ -56,3 +56,11 @@ TEXT TRANSFORM: uppercase (todas as letras ficam maiusculas)
 font-size: porcentgemVW (a fonte vai aumentar e diminuir, conforme aumenta ou diminui a tela)
 
 Efeito parallax: background-attachment: fixed
+
+Nao podemos usar tabela pra criar a estrutura de um site
+
+Hierarquia de tabelas (simples)
+        Table = tbela
+        table row = linha de tabela (tr)
+        table header = cabecalho de tabela (th)
+        table date = dado de tabela (td)
