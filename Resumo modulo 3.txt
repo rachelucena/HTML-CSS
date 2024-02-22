@@ -50,3 +50,7 @@ OBSERVACAO: O SIZE NAO E ACEITO, ENTAO TEM QUE FAZER A DECLARACAO SEPARADA
 section e article = div semanticas
 
 container tem posicao relativa e o conteudo vai ser position absoluto (com isso, vc pode configurar duas propriedades: left e top)
+
+TEXT TRANSFORM: uppercase (todas as letras ficam maiusculas)
+
+font-size: porcentgemVW (a fonte vai aumentar e diminuir, conforme aumenta ou diminui a tela)
