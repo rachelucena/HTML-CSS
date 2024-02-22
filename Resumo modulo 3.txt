@@ -54,3 +54,5 @@ container tem posicao relativa e o conteudo vai ser position absoluto (com isso,
 TEXT TRANSFORM: uppercase (todas as letras ficam maiusculas)
 
 font-size: porcentgemVW (a fonte vai aumentar e diminuir, conforme aumenta ou diminui a tela)
+
+Efeito parallax: background-attachment: fixed
