@@ -62,7 +62,7 @@ Nao podemos usar tabela pra criar a estrutura de um site
 Hierarquia de tabelas (simples)
         Table = tbela
         table row = linha de tabela (tr)
-        table header = cabecalho de tabela (th)
+        table header = cabecalho/titulo de tabela (th)
         table date = dado de tabela (td)
 
 O tr e td nao tem fechamento obrigatorios 
@@ -70,3 +70,19 @@ O tr e td nao tem fechamento obrigatorios
 Se os elementos nao estao na hierarquia certa, os dados vao aparecer antes ou depois da tabela
 
 collapse: se quero os dados juntos ou separados
+
+  ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+
+scope col = serve pra informar que aquele titulo tem dados na coluna a seguir
+scope row = aquele titulo tem dados na linha a seguir
+
+efeito zebrado em tabela: tr:nth-child(2n) (no lugar de 2n pode colocar odd/even)
+
+rowspam = expandir linhas
+colspam = expandir colunas
