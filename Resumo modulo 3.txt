@@ -86,3 +86,7 @@ efeito zebrado em tabela: tr:nth-child(2n) (no lugar de 2n pode colocar odd/even
 
 rowspam = expandir linhas
 colspam = expandir colunas
+
+posso juntar varias colunas num mesmo c, porem eles terao as mesmas caracteristicas
+
+Para fazer tabela responsiva, deve-se colocar toda a tabela dentro de uma div, dar uma id e colocar overflow-x=auto.
