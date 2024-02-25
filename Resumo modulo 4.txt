@@ -1,1 +1,6 @@
-Iframe = 
+Iframe = frame inline = quadro em linha
+Serve para criar uma aba nova dentro do proprio site
+Aguns sites - como o google - nao aceitam colocar seus conteudos num iframe
+O tamanho padrao do Iframe e 300x150
+E possivel mudar o tamanho dos iframes por CSS, mas ela sao soberanas, ou seja, e a configuracao que esta nela que vai valer no site
+scolling="no" (para nao ficar o site rolando dentro do iframe, mas nem sempre funciona)
