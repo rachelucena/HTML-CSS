@@ -6,3 +6,7 @@ E possivel mudar o tamanho dos iframes por CSS, mas ela sao soberanas, ou seja, 
 scolling="no" (para nao ficar o site rolando dentro do iframe, mas nem sempre funciona)
 srcdoc= (coloca codigo basico html no iframe, inclusive foto)
 sandbox="sandbox" referrerpolicy="no-referrer" maximo de seguranca pro iframe, mas e possivel configurar para permitr algumas coisas, como scripts
+
+COMO FAZER A IMAGEM DE PRINT (cap 23 aula 7)
+
+Imagem > tamanho da tela de pintura > colocar 10.000 e 0 e 0 > (ctl c na foto que vc quer) ctrl v > shift c e marca so a parte que a gente quer > imagem e redimensionar imagem e colocar 600 > arquivo, exporta como, jpg e exporta
