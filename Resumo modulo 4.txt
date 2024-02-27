@@ -17,3 +17,6 @@ Paa proteger os dados tem que colocar https e php
 
 Qd usar GET = qd os dados nao forem sensiveis, so pode usar ate 3000 bytes (3000 letras), sem fotos
 Qd usar POST = qd forem usar sensiveis, se passar de 3000 bytes e enviar arquivos 
+
+ESTUDAR MAIS SOBRE EXPRESSOES REGULARES
+(rever aula 08)
