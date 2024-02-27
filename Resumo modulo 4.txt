@@ -19,4 +19,3 @@ Qd usar GET = qd os dados nao forem sensiveis, so pode usar ate 3000 bytes (3000
 Qd usar POST = qd forem usar sensiveis, se passar de 3000 bytes e enviar arquivos 
 
 ESTUDAR MAIS SOBRE EXPRESSOES REGULARES
-(rever aula 08)
