@@ -21,3 +21,10 @@ Qd usar POST = qd forem usar sensiveis, se passar de 3000 bytes e enviar arquivo
 ESTUDAR MAIS SOBRE EXPRESSOES REGULARES
 
 Para formulario com envio de arquivo (fotos), tem que ser method form.
+
+Breakpoints:
+Pequenas telas ate 600px
+Celular entre 600px ate 768px
+Tablet entre 768px ate 992px
+Destop 992 px ate 1200px
+Grandes telas acima de 1200px
