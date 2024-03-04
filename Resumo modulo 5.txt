@@ -1,0 +1,28 @@
+Flexbox cria um layout flexivel para adaptar o conteudo
+
+Apenas o conteiner (flex-container) vai receber a configuracao flexbox, os filhos (flex-items) serao configurados como itens
+
+flex-direction: row -------->
+flex-direction: row-reverse <--------
+flex-direction: column (coluna, usado para celulares, de cima para baixo)
+flex-direction: column-reverse (sentido de baixo para cima)
+
+flex-direction: row = gera o eixo main-axis (eixo principal), com dois pontos (main-start e main-end), da esquerda para a direita, e gera o eixo main-axis (eixo vertical), com dois pontos (cross-start e cross-end), de cima para baixo
+
+flex-direction: row-reverse = o eixo main-axis fica da direita para a esquerda, mas o cross-axis continua de cima para baixo
+
+flex-direction: column = o main-axis vai de cima para baixo e o cross-axis da esquerda para a direita
+
+flex-direction: column-reverse = o eixo main-axis fica de baixo para cima e o cross-axis da esquerda para a direita
+
+flex-wrap: configura o comportamento do container
+
+por padrao, flex-wrap: nowrap
+
+O encolhimento dos itens dentro do flexbox dependem do conteudo (exemplo: se for um texto, vai ficar com o tamanho da palavra mais longa)
+
+flex-wrap: wrap (quebra no sentido do eixo transverdal/cross-axis qd diminui o container)
+
+flex-wrap: wrap-reverse (quebra no sentido contrario ao eixo transversal/cross-axis qd diminui o container)
+
+flex-flow = (flex-direction + flex-wrap)
