@@ -26,3 +26,29 @@ flex-wrap: wrap (quebra no sentido do eixo transverdal/cross-axis qd diminui o c
 flex-wrap: wrap-reverse (quebra no sentido contrario ao eixo transversal/cross-axis qd diminui o container)
 
 flex-flow = (flex-direction + flex-wrap)
+
+JUstify-content: alinhamento em relacao ao main-axis (eixo principal)
+
+JUstify-content: flex-start (o primeiro item vai ficar grudado no main-start e o expaco branco vai ficar main-end
+
+JUstify-content: flex-end (o ultimo item vai ficar grudado no main-end e o espaco em branco vai ficar no main-start)
+
+JUstify-content: center
+
+JUstify-content: space-between (primeiro item no main-start e o ultimo elemento no main-end, os outros vao ficar distribuidos no centro por igual)
+
+JUstify-content: space-evenly (coloca os itens pelo container de modo que haja um espaco igual entre o main-start e o main-end e os seus respectivos itens)
+
+JUstify-content: space-around (divide o espaco do container em tres espacos e os itens ficam centralizados nesses espacos)
+
+align-items = alinhamento em relacao ao cross-axis (eixo transversal)
+
+align-items: stretch = esticar
+
+align-items: flex-start (itens colados no final do cross-start)
+
+align-items: flex-end (itens colados no final do cross-end)
+
+align-items: center 
+
+PARA ALINHAR ITENS PERFEITAMENTE: justify-content e align-items: center
