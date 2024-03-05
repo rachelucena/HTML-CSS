@@ -17,20 +17,31 @@
             border: 1px solid black;
             text-align: center;
             text-align: center;
-            flex-basis: 250px;
+            flex-basis: 200px;
+        }
+
+        div#cxA {
             flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div#cxA {
+            flex-shrink: 1;
+            flex-grow: 2;
+        }
+
+        div#cxA {
+            flex-shrink: 1;
+            flex-grow: 4;
         }
 
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
     </div>
 </body>
 </html>

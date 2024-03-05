@@ -92,3 +92,5 @@ flex-basis: (valor de pixel), nao se adequa ao conteudo e sim ao numero de pixel
 por padrao
 flex-shrink: 1 (pode encolher qq valor diferente de 0 e positivo)
 flex-grow: 0 (nao pode crescer)
+1 e 1 = elementos altamente fluidos, que crescem a vontade
+O crescimento e proporcional qd os valores sao maiores que 1
