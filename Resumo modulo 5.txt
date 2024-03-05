@@ -68,3 +68,17 @@ align-content: space-between (os primeiros elementos ficam perto do cross-start,
 align-content: space-evenly (coloca espaco no cross-start e cross-end, calculando os espacos milimetricamente)
 
 align-content: space-around (divide o eixo trasverssal em espacos iguais, colocando os elementos nas areas demarcadas, centralizando os itens)
+
+Os itens nao sao flex, mas e possivel transformar os itens em elementos flexiveis
+
+Todo elemento dentro do flexbox e por padrao 0
+
+Se forem dados outros valores, o CSS vai ordenar do menor valor para o maior valor
+
+align-sel= os itens ficam com alinhamentos diferentes, se aplicando no eixo trasnversal
+
+align-self: auto (herda o alinhamento vertical do pai)
+align-self: flex-start (perto do cross-start)
+align-self: flex-end (perto do cross-end)
+align-self: center 
+align-self: stretch
