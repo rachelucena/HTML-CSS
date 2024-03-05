@@ -75,10 +75,20 @@ Todo elemento dentro do flexbox e por padrao 0
 
 Se forem dados outros valores, o CSS vai ordenar do menor valor para o maior valor
 
-align-sel= os itens ficam com alinhamentos diferentes, se aplicando no eixo trasnversal
+align-self = os itens ficam com alinhamentos diferentes, se aplicando no eixo trasnversal
 
 align-self: auto (herda o alinhamento vertical do pai)
 align-self: flex-start (perto do cross-start)
 align-self: flex-end (perto do cross-end)
 align-self: center 
 align-self: stretch
+
+flex-basis 
+
+flex-basis:auto = a altura do elemento e de acordo com o conteudo
+
+flex-basis: (valor de pixel), nao se adequa ao conteudo e sim ao numero de pixels
+
+por padrao
+flex-shrink: 1 (pode encolher qq valor diferente de 0 e positivo)
+flex-grow: 0 (nao pode crescer)
