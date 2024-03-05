@@ -52,3 +52,19 @@ align-items: flex-end (itens colados no final do cross-end)
 align-items: center 
 
 PARA ALINHAR ITENS PERFEITAMENTE: justify-content e align-items: center
+
+align-content = alinha os elementos no eixo transversal, mas quando eles estao empacotados
+
+align-content: strech (valor padrao) = (pega a area disponivel e dvide pelo numero de linhas/colunas, esticando os itens por lado ou pra baixo)
+
+align-content: flex-start (pega os elementos e gruda no cross-start
+
+align-content: flex-end (pega os elementos e coloca proximo ao cross-end)
+
+align-content: center (espacos em branco no cross-start e cross-end, alinhando ao centro)
+
+align-content: space-between (os primeiros elementos ficam perto do cross-start, os ultimos perto do cross-end e o espaco no meio ficam dividos pelos elementos que venham a existir)
+
+align-content: space-evenly (coloca espaco no cross-start e cross-end, calculando os espacos milimetricamente)
+
+align-content: space-around (divide o eixo trasverssal em espacos iguais, colocando os elementos nas areas demarcadas, centralizando os itens)
