@@ -94,3 +94,9 @@ flex-shrink: 1 (pode encolher qq valor diferente de 0 e positivo)
 flex-grow: 0 (nao pode crescer)
 1 e 1 = elementos altamente fluidos, que crescem a vontade
 O crescimento e proporcional qd os valores sao maiores que 1
+
+propriedade flex = flex-grow + flex-shrink + flex-basis
+
+flex initial = 0 1 auto
+flex none = 0 0 auto
+flex auto = 1 1 auto
